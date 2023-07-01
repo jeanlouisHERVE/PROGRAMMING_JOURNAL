@@ -6,6 +6,14 @@ menu = """Please select one of the following options:
 Your selection: """
 welcome = "Welcome to the programming diary !"
 
+# entries = [
+#     {"content": "Today I started learning programing", "date":"01-01-2023"},
+#     {"content": "Blabla ", "date":"02-01-2023"},
+#     {"content": "Blablabla", "date":"03-01-2023"},
+#     {"content": "Blablablabla", "date":"04-01-2023"},
+# ]
+
+
 while user_input (user_input := input(menu)) != "3":
     #content 
     if user_input == "1":
